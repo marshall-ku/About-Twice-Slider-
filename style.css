@@ -82,7 +82,7 @@ html, body {
   opacity: 1
 }
 
-.marshall-slider .side_btn {
+.marshall-slider .sidebtn {
   color: #fff;
   position: absolute;
   top: 50%;
@@ -92,7 +92,7 @@ html, body {
   text-align: center
 }
 
-.marshall-slider .side_btn::before {
+.marshall-slider .sidebtn::before {
   border-style: solid;
   border-width: 3px 3px 0 0;
   content: '';
@@ -103,7 +103,7 @@ html, body {
   transform: rotate(135deg)
 }
 
-.marshall-slider .side_btn:hover {
+.marshall-slider .sidebtn:hover {
   color: rgba(200, 200, 200, .5)
 }
 
