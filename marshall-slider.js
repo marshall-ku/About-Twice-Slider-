@@ -10,7 +10,7 @@ $(".marshall-slider").each(function() {
   function b() {
     clearInterval(j), j = setInterval(function() {
       a()
-    }, 5e3)
+    }, 5000)
   }
   var c, i = $(this),
     e = i.find(".paging-list .thumb").length - 1;
