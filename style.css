@@ -18,7 +18,7 @@ html, body {
   background: #000
 }
 
-.marshall-slider .m_slider_wrapper {
+.marshall-slider .carousel-wrapper {
   display: flex;
   position: relative;
   width: 100%;
@@ -26,7 +26,7 @@ html, body {
   transition: .5s
 }
 
-.marshall-slider .m_slider_wrapper .m_slider_item {
+.marshall-slider .carousel-wrapper .slider-item {
   position: absolute;
   top: 0;
   right: 0;
@@ -39,11 +39,11 @@ html, body {
   transition: .75s
 }
 
-.marshall-slider .m_slider_wrapper .m_slider_item.reveal {
+.marshall-slider .carousel-wrapper .slider-item.reveal {
   opacity: 1
 }
 
-.marshall-slider .m_slider_wrapper .thumb {
+.marshall-slider .carousel-wrapper .thumb {
   width: 100%;
   height: 100%;
   background-size: cover;
