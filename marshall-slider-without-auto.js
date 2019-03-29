@@ -17,7 +17,8 @@ $(window).on("load", function() {
       h = $(this),
       i = h.find(".paging-list .thumb").length - 1;
 
-    a(), h.find(".paging-list .thumb").first().addClass("highlight"),
+    a(),
+    h.find(".paging-list .thumb").first().addClass("highlight"),
     h.find(".slider-item").first().addClass("reveal"),
     h.find(".paging-list .thumb").on("click", function() {
       h.find(this).hasClass("highlight") || (b = h.find(this).index(), d(b), a())
