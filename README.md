@@ -2,7 +2,12 @@
 
 Image : http://twice.jype.com/profile.asp
 
-Live Demo : https://marshall-ku.github.io/Slider/main.html
+***
+
+## Live Demo
+
+자동 : https://marshall-ku.github.io/Slider/main.html
+수동 : https://marshall-ku.github.io/Slider/main2.html
 
 ***
 
