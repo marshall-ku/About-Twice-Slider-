@@ -1,6 +1,6 @@
 $(".marshall-slider").each(function() {
   function h() {
-    i.find(".m_slider_item").removeClass("reveal").eq(c).addClass("reveal"), i.find(".paging-list .thumb").removeClass("highlight").eq(c).addClass("highlight")
+    i.find(".slider-item").removeClass("reveal").eq(c).addClass("reveal"), i.find(".paging-list .thumb").removeClass("highlight").eq(c).addClass("highlight")
   }
 
   function a() {
@@ -14,7 +14,7 @@ $(".marshall-slider").each(function() {
   }
   var c, i = $(this),
     e = i.find(".paging-list .thumb").length - 1;
-  i.find(".paging-list .thumb").first().addClass("highlight"), i.find(".m_slider_item").first().addClass("reveal"), i.find(".paging-list .thumb").on("click", function() {
+  i.find(".paging-list .thumb").first().addClass("highlight"), i.find(".slider-item").first().addClass("reveal"), i.find(".paging-list .thumb").on("click", function() {
     i.find(this).hasClass("highlight") || (c = i.find(this).index(), h(c), b())
   }), i.find(".nextbtn").on("click", function() {
     c = i.find(".paging-list .thumb.highlight").index(), c === e ? c = 0 : ++c, h(c), b()
