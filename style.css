@@ -51,7 +51,7 @@ html, body {
   background-position: 50%
 }
 
-.marshall-slider .paging-list {
+.marshall-slider .paging-thumb-list {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -61,7 +61,7 @@ html, body {
   z-index: 2
 }
 
-.marshall-slider .paging-list .thumb {
+.marshall-slider .paging-thumb-list .thumb {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -74,11 +74,11 @@ html, body {
   transition: .75s
 }
 
-.marshall-slider .paging-list .thumb:hover {
+.marshall-slider .paging-thumb-list .thumb:hover {
   opacity: .75
 }
 
-.marshall-slider .paging-list .thumb.highlight {
+.marshall-slider .paging-thumb-list .thumb.highlight {
   opacity: 1
 }
 
