@@ -23,5 +23,5 @@ $(".marshall-slider").each(function() {
   });
   var j = setInterval(function() {
     a()
-  }, 5e3)
+  }, 5000)
 });
